@@ -1,15 +1,15 @@
-# LeadBase API - Desafio Técnico
+# API - Desafio Técnico
 
 ### Montar um projeto em Node.js, com a função de fazer Autenticação e autorização de usuários.
 
 #### O processo se dá onde um usuário pode enviar seu CPF e uma senha para a API e realizar login na plataforma, recebendo assim um token de acesso contendo seus dados, sua role e suas permissões, feito login, existem dois casos:
 
-1. se ele for administrador ele pode usar seu token para acessar uma rota para remover uma permissão (enviando o nome dessa permissão) ou adicionar uma permissão (enviando o nome dessa permissão).
-2. se ele for vendedor não terá acesso a nenhuma rota.
+1. Se o usuário administrador ele pode usar seu token para acessar uma rota para remover uma permissão (enviando o nome dessa permissão) ou adicionar uma permissão (enviando o nome dessa permissão).
+2. Se o usuário for vendedor não terá acesso a nenhuma rota.
 
 ## Tecnologias
 
-Este projeto foi desenvolvido como desafio técnico para [LeadBase](https://leadbase.com.br/) com as seguintes tecnologias:
+Este projeto foi desenvolvido como um desafio técnico, com as seguintes tecnologias:
 
 - [Node.js][nodejs]
 - [Express](https://expressjs.com/)
@@ -27,10 +27,10 @@ Do seu terminal, execute:
 
 ```bash
 # Clonar este repositório
-$ git clone https://github.com/JapBastos/gobarber-api
+$ git clone https://github.com/JapBastos/api-auth-test
 
 # Entrar no repositório
-$ cd gobarber-api
+$ cd api-auth-test
 
 # Instalar as dependências
 $ yarn
